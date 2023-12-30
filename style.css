@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.portfolio-header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+.img{
+    height:500px;
+}
+.display{
+    display: flex;
+}
+
+.portfolio-section {
+    max-width: 800px;
+    
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-section-title {
+    color: #3498db;
+}
+
+.portfolio-section-content {
+    line-height: 1.6;
+    color: #555;
+}
+
+.portfolio-project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-project {
+    flex: 0 0 48%;
+    margin-bottom: 20px;
+}
+
+.portfolio-project-title {
+    color: #2ecc71;
+}
+
+.portfolio-project-description {
+    color: #777;
+}
+
+.portfolio-project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.portfolio-footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.img{
+    border-radius: 50%;
+}
+.myinsta {
+    height: 15px;
+    padding-top:5px;
+padding-left:4px ;
+}
+.myinsta {
+    transition: ease-in-out;
+}
+
+.myinsta:hover {
+    transform: scale(1.5);
+
+}
+
+       
